@@ -1,7 +1,7 @@
 /*
 	global.h
 
-	declares a set of varibles that the whole program uses
+	Declares a set of varibles that the whole program uses
 */
 
 #ifndef GLOBAL_H
@@ -13,6 +13,7 @@ namespace gbl
 {
 
 	extern bool loop;
+	extern int state;
 
 	extern SDL_Surface* S_screen;
 

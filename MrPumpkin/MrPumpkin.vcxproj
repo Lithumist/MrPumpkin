@@ -12,11 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\code\global.cpp" />
+    <ClCompile Include="..\code\graphics.cpp" />
     <ClCompile Include="..\code\main.cpp" />
+    <ClCompile Include="..\code\resources.cpp" />
+    <ClCompile Include="..\code\scr_title.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\constant.h" />
     <ClInclude Include="..\code\global.h" />
+    <ClInclude Include="..\code\graphics.h" />
+    <ClInclude Include="..\code\resources.h" />
+    <ClInclude Include="..\code\scr_title.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3FEEDE15-A23F-4A7B-B7F7-5597477A8091}</ProjectGuid>

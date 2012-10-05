@@ -9,21 +9,63 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Header Files\use">
+      <UniqueIdentifier>{8dc97a81-88ff-4c51-b99d-6890de6535d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\use\use">
+      <UniqueIdentifier>{acbf4b98-d3cd-428e-8eab-f1464b826340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\use\use\use">
+      <UniqueIdentifier>{4c1a8166-8925-4a8c-a45e-87eecc04006f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\use\use\use\use">
+      <UniqueIdentifier>{87e5c865-f04a-4bff-98f7-7875337abf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\use">
+      <UniqueIdentifier>{dce990eb-7db2-46e8-ac82-870ae9ed795b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\use\use">
+      <UniqueIdentifier>{4e5c8ea8-273c-4a79-bf09-6ae14e1a473d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\use\use\use">
+      <UniqueIdentifier>{2fe3a24f-2385-4d8d-b074-79f8c385d48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\use\use\use\use">
+      <UniqueIdentifier>{1917781e-c10b-421f-b418-768d0e6ea3bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\code\global.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\use\use\use\use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\graphics.cpp">
+      <Filter>Source Files\use\use\use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\resources.cpp">
+      <Filter>Source Files\use\use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\scr_title.cpp">
+      <Filter>Source Files\use</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\constant.h">
+      <Filter>Header Files\use\use\use\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\scr_title.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\code\global.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\use\use\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\resources.h">
+      <Filter>Header Files\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\graphics.h">
+      <Filter>Header Files\use\use</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
