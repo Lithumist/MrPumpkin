@@ -50,6 +50,12 @@
     <ClCompile Include="..\code\scr_title.cpp">
       <Filter>Source Files\use</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\fps.cpp">
+      <Filter>Source Files\use\use\use\use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\timer.cpp">
+      <Filter>Source Files\use\use\use\use</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\constant.h">
@@ -66,6 +72,12 @@
     </ClInclude>
     <ClInclude Include="..\code\graphics.h">
       <Filter>Header Files\use\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\fps.h">
+      <Filter>Header Files\use\use\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\timer.h">
+      <Filter>Header Files\use\use\use</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

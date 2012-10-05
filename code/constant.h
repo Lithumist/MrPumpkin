@@ -15,6 +15,7 @@ namespace cnst
 	const unsigned int WINDOW_WIDTH = 800;
 	const unsigned int WINDOW_HEIGHT = 640;
 	const std::string WINDOW_CAPTION = "Mr Pumpkin";
+	const int TARGET_FPS = 60;
 
 	const std::string FILE_HEADER = "MR_PUMPKIN_MAP_FILE";
 

@@ -15,8 +15,11 @@
 
 #include "constant.h"
 #include "global.h"
+#include "fps.h"
+#include "timer.h"
 #include "graphics.h"
 #include "resources.h"
+#include "scr_title.h"
 #include "SDL.h"
 
 
@@ -37,6 +40,9 @@ int main(int argc, char* args[])
 
 	// Set caption
 	SDL_WM_SetCaption(cnst::WINDOW_CAPTION.c_str(), NULL);
+
+	// Initialize fps regulator
+	fpsCalc::GetInstance()->Init((double)cnst::TARGET_FPS);
 
 
 
@@ -61,6 +67,9 @@ int main(int argc, char* args[])
 	// Set state to title screen
 	gbl::state = 2;
 
+	// Initialize title screen
+	scr_title_start();
+
 
 
 
@@ -83,20 +92,24 @@ int main(int argc, char* args[])
 
 
 
-			case 2: //title
+			case 2: // title
 
-				/*Logic*/
+				scr_title_step();
+				scr_title_render_graphics();
 
-				/*Graphics rendering*/
+			break;
 
-				// Clear screen
-				SDL_FillRect(gbl::S_screen, &gbl::S_screen->clip_rect, SDL_MapRGB(gbl::S_screen->format, 0xFF, 0xFF, 0xFF));
+			case 3: // level select
 
-				// Draw title
-				imageDraw(res::S_title,150,0);
+				scr_title_step();
+				scr_title_render_graphics();
 
-				// Flip screen
-				SDL_Flip(gbl::S_screen);
+			break;
+
+			case 4: // play
+
+				scr_title_step();
+				scr_title_render_graphics();
 
 			break;
 

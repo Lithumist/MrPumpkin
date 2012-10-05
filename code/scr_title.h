@@ -9,6 +9,8 @@
 
 #include "constant.h"
 #include "global.h"
+#include "graphics.h"
+#include "resources.h"
 
 
 //////////////////////
@@ -18,9 +20,9 @@
 //////////////////////
 //  Functions
 
-void start();
-void step();
-void render_graphics();
+void scr_title_start();
+void scr_title_step();
+void scr_title_render_graphics();
 
 
 #endif
