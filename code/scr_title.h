@@ -11,10 +11,14 @@
 #include "global.h"
 #include "graphics.h"
 #include "resources.h"
+#include "timer.h"
 
 
 //////////////////////
 //  Varibles
+
+extern timer mainTimer;
+extern bool displayMessage;
 
 
 //////////////////////

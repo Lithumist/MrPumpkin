@@ -16,6 +16,7 @@ namespace res
 
 	// Graphics
 	extern SDL_Surface* S_title;
+	extern SDL_Surface* S_message;
 
 	// Sound
 

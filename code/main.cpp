@@ -53,6 +53,7 @@ int main(int argc, char* args[])
 
 	// Graphics
 	res::S_title = imageLoad("resources/graphics/title.png");
+	res::S_message = imageLoad("resources/graphics/message.png");
 
 	// Sounds
 	//
@@ -131,6 +132,7 @@ int main(int argc, char* args[])
 
 	// Free images
 	imageFree(res::S_title);
+	imageFree(res::S_message);
 
 	// Bye
 	return 0;
