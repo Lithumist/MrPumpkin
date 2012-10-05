@@ -1,0 +1,8 @@
+# .gitignore file
+Debug/
+Release/
+ipch/
+MrPumpkin/Debug/
+MrPumpkin/Release/
+*.opensdf
+*.sdf
