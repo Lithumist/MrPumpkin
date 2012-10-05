@@ -4,5 +4,6 @@ Release/
 ipch/
 MrPumpkin/Debug/
 MrPumpkin/Release/
+MrPumpkin/resources/
 *.opensdf
 *.sdf
