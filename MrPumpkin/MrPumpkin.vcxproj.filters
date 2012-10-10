@@ -56,6 +56,9 @@
     <ClCompile Include="..\code\timer.cpp">
       <Filter>Source Files\use\use\use\use</Filter>
     </ClCompile>
+    <ClCompile Include="..\code\scr_lvl.cpp">
+      <Filter>Source Files\use</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\constant.h">
@@ -78,6 +81,9 @@
     </ClInclude>
     <ClInclude Include="..\code\timer.h">
       <Filter>Header Files\use\use\use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\scr_lvl.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -9,4 +9,7 @@ namespace gbl
 
 	SDL_Surface* S_screen = NULL;
 
+	bool spacePressed = false;
+	bool spaceIsDown = false;
+
 }

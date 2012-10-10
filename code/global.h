@@ -17,6 +17,9 @@ namespace gbl
 
 	extern SDL_Surface* S_screen;
 
+	extern bool spacePressed;
+	extern bool spaceIsDown;
+
 }
 
 #endif

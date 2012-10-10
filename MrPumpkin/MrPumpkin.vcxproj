@@ -16,6 +16,7 @@
     <ClCompile Include="..\code\graphics.cpp" />
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\resources.cpp" />
+    <ClCompile Include="..\code\scr_lvl.cpp" />
     <ClCompile Include="..\code\scr_title.cpp" />
     <ClCompile Include="..\code\timer.cpp" />
   </ItemGroup>
@@ -25,6 +26,7 @@
     <ClInclude Include="..\code\global.h" />
     <ClInclude Include="..\code\graphics.h" />
     <ClInclude Include="..\code\resources.h" />
+    <ClInclude Include="..\code\scr_lvl.h" />
     <ClInclude Include="..\code\scr_title.h" />
     <ClInclude Include="..\code\timer.h" />
   </ItemGroup>

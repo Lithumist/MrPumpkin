@@ -22,11 +22,14 @@ void scr_title_start()
 void scr_title_step()
 {
 
-	if(mainTimer.get_time()>=500) // every half-second
+	if(mainTimer.get_time()>=250) // every quarter-second
 	{
 		displayMessage = !displayMessage;
 		mainTimer.reset();
 	}
+
+	if(gbl::spacePressed)
+		gbl::state = 3; // goto level select
 
 }
 

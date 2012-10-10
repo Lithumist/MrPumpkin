@@ -20,10 +20,15 @@
 #include "graphics.h"
 #include "resources.h"
 #include "scr_title.h"
+#include "scr_lvl.h"
 #include "SDL.h"
 
 
 SDL_Event event;
+Uint8* keystates;
+
+
+void doKeys();
 
 
 /** Main function **/
@@ -82,11 +87,27 @@ int main(int argc, char* args[])
 	{
 
 		/*Events*/
-		 while(SDL_PollEvent(&event))
-		 {
-			 if(event.type == SDL_QUIT)
-				 gbl::loop = false;
-		 }
+		keystates = SDL_GetKeyState(NULL);
+		while(SDL_PollEvent(&event))
+		{
+			if(event.type == SDL_QUIT)
+				gbl::loop = false;
+
+			// event
+			if(event.type == SDL_KEYDOWN)
+			{
+				switch(event.key.keysym.sym)
+				{
+					case SDLK_SPACE:
+						gbl::spacePressed = true;
+					break;
+				}
+			}
+
+		}
+
+		// keystates
+		doKeys();
 
 		 switch(gbl::state)
 		 {
@@ -97,20 +118,22 @@ int main(int argc, char* args[])
 
 				scr_title_step();
 				scr_title_render_graphics();
+				if(gbl::state == 3)
+					scr_lvl_start();
 
 			break;
 
 			case 3: // level select
 
-				scr_title_step();
-				scr_title_render_graphics();
+				scr_lvl_step();
+				scr_lvl_render_graphics();
 
 			break;
 
 			case 4: // play
 
-				scr_title_step();
-				scr_title_render_graphics();
+				//scr_title_step();
+				//scr_title_render_graphics();
 
 			break;
 
@@ -136,4 +159,52 @@ int main(int argc, char* args[])
 
 	// Bye
 	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void doKeys()
+{
+
+
+	if(keystates[SDLK_SPACE])
+	{
+		if(gbl::spaceIsDown)
+			gbl::spacePressed = false;
+
+		gbl::spaceIsDown = true;
+	}
+	else
+	{
+		gbl::spaceIsDown = false;
+		gbl::spacePressed = false;
+	}
+
+
 }
