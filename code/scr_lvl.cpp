@@ -21,6 +21,9 @@ void scr_lvl_start()
 void scr_lvl_step()
 {
 
+	if(gbl::spacePressed)
+		gbl::state = 4; // play
+
 }
 
 

@@ -21,6 +21,7 @@
 #include "resources.h"
 #include "scr_title.h"
 #include "scr_lvl.h"
+#include "play.h"
 #include "SDL.h"
 
 
@@ -127,6 +128,9 @@ int main(int argc, char* args[])
 
 				scr_lvl_step();
 				scr_lvl_render_graphics();
+				if(gbl::state == 4)
+					playLevel("resources/levels/lvl_01.pkm");
+
 
 			break;
 

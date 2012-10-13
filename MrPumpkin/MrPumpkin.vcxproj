@@ -15,6 +15,7 @@
     <ClCompile Include="..\code\global.cpp" />
     <ClCompile Include="..\code\graphics.cpp" />
     <ClCompile Include="..\code\main.cpp" />
+    <ClCompile Include="..\code\play.cpp" />
     <ClCompile Include="..\code\resources.cpp" />
     <ClCompile Include="..\code\scr_lvl.cpp" />
     <ClCompile Include="..\code\scr_title.cpp" />
@@ -27,6 +28,7 @@
     <ClInclude Include="..\code\graphics.h" />
     <ClInclude Include="..\code\resources.h" />
     <ClInclude Include="..\code\scr_lvl.h" />
+    <ClInclude Include="..\code\play.h" />
     <ClInclude Include="..\code\scr_title.h" />
     <ClInclude Include="..\code\timer.h" />
   </ItemGroup>
