@@ -7,6 +7,7 @@
 //  Varibles
 
 bool playing = false;
+int levelReturnCode = -2;
 
 
 //////////////////////

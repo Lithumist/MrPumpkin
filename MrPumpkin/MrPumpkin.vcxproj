@@ -14,6 +14,7 @@
     <ClCompile Include="..\code\fps.cpp" />
     <ClCompile Include="..\code\global.cpp" />
     <ClCompile Include="..\code\graphics.cpp" />
+    <ClCompile Include="..\code\level.cpp" />
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\code\play.cpp" />
     <ClCompile Include="..\code\resources.cpp" />
@@ -26,6 +27,7 @@
     <ClInclude Include="..\code\fps.h" />
     <ClInclude Include="..\code\global.h" />
     <ClInclude Include="..\code\graphics.h" />
+    <ClInclude Include="..\code\level.h" />
     <ClInclude Include="..\code\resources.h" />
     <ClInclude Include="..\code\scr_lvl.h" />
     <ClInclude Include="..\code\play.h" />

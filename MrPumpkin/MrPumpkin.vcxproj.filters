@@ -9,87 +9,102 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Header Files\use">
-      <UniqueIdentifier>{8dc97a81-88ff-4c51-b99d-6890de6535d1}</UniqueIdentifier>
+    <Filter Include="Source Files\screens">
+      <UniqueIdentifier>{b9c5074c-ba1b-4df1-bb6a-5e30331a7150}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\use\use">
-      <UniqueIdentifier>{acbf4b98-d3cd-428e-8eab-f1464b826340}</UniqueIdentifier>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{4d6a8657-3639-49fe-a00c-3773821ebce8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\use\use\use">
-      <UniqueIdentifier>{4c1a8166-8925-4a8c-a45e-87eecc04006f}</UniqueIdentifier>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{05616668-0aae-4d99-85f5-057ea75f356c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\use\use\use\use">
-      <UniqueIdentifier>{87e5c865-f04a-4bff-98f7-7875337abf9b}</UniqueIdentifier>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{11d75487-9acd-4d91-a468-af5d48ba6717}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\use">
-      <UniqueIdentifier>{dce990eb-7db2-46e8-ac82-870ae9ed795b}</UniqueIdentifier>
+    <Filter Include="Source Files\includes">
+      <UniqueIdentifier>{7227c6a1-c7c5-46d6-be8c-c73f8acaf494}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\use\use">
-      <UniqueIdentifier>{4e5c8ea8-273c-4a79-bf09-6ae14e1a473d}</UniqueIdentifier>
+    <Filter Include="Header Files\includes">
+      <UniqueIdentifier>{cdbf8242-ab4a-42c1-a4e2-d5f1c6ba070d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\use\use\use">
-      <UniqueIdentifier>{2fe3a24f-2385-4d8d-b074-79f8c385d48c}</UniqueIdentifier>
+    <Filter Include="Header Files\utilities">
+      <UniqueIdentifier>{b32387da-d03b-45fc-a8b7-62d64e64154d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\use\use\use\use">
-      <UniqueIdentifier>{1917781e-c10b-421f-b418-768d0e6ea3bd}</UniqueIdentifier>
+    <Filter Include="Header Files\screens">
+      <UniqueIdentifier>{96c05dac-0643-4a62-8a05-029d2c6d31bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{cd598c24-72bd-410b-9cb5-459823fbdd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\levels">
+      <UniqueIdentifier>{4f4dddf8-93fe-44ee-bac9-b40dc4ab6458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\levels">
+      <UniqueIdentifier>{ab1b0c1d-9d53-47f5-99aa-fe141c6c1839}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\code\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\global.cpp">
-      <Filter>Source Files\use\use\use\use</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\graphics.cpp">
-      <Filter>Source Files\use\use\use</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\resources.cpp">
-      <Filter>Source Files\use\use</Filter>
+    <ClCompile Include="..\code\scr_lvl.cpp">
+      <Filter>Source Files\screens</Filter>
     </ClCompile>
     <ClCompile Include="..\code\scr_title.cpp">
-      <Filter>Source Files\use</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\fps.cpp">
-      <Filter>Source Files\use\use\use\use</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\timer.cpp">
-      <Filter>Source Files\use\use\use\use</Filter>
-    </ClCompile>
-    <ClCompile Include="..\code\scr_lvl.cpp">
-      <Filter>Source Files\use</Filter>
+      <Filter>Source Files\screens</Filter>
     </ClCompile>
     <ClCompile Include="..\code\play.cpp">
-      <Filter>Source Files\use</Filter>
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\fps.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\timer.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\global.cpp">
+      <Filter>Source Files\includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\resources.cpp">
+      <Filter>Source Files\includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\graphics.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\level.cpp">
+      <Filter>Source Files\game\levels</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\code\constant.h">
-      <Filter>Header Files\use\use\use\use</Filter>
-    </ClInclude>
-    <ClInclude Include="..\code\scr_title.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\code\global.h">
-      <Filter>Header Files\use\use\use</Filter>
+      <Filter>Header Files\includes</Filter>
     </ClInclude>
     <ClInclude Include="..\code\resources.h">
-      <Filter>Header Files\use</Filter>
+      <Filter>Header Files\includes</Filter>
     </ClInclude>
-    <ClInclude Include="..\code\graphics.h">
-      <Filter>Header Files\use\use</Filter>
+    <ClInclude Include="..\code\constant.h">
+      <Filter>Header Files\includes</Filter>
     </ClInclude>
     <ClInclude Include="..\code\fps.h">
-      <Filter>Header Files\use\use\use</Filter>
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\graphics.h">
+      <Filter>Header Files\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\code\timer.h">
-      <Filter>Header Files\use\use\use</Filter>
+      <Filter>Header Files\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\code\scr_lvl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\scr_title.h">
+      <Filter>Header Files\screens</Filter>
     </ClInclude>
     <ClInclude Include="..\code\play.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\level.h">
+      <Filter>Header Files\game\levels</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
